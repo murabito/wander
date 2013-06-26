@@ -1,0 +1,3 @@
+<h1><%= @wanderlist.name %></h1>
+<p><%= @wanderlist.description unless @wanderlist.description.empty? %></p>
+<p><%= link_to "Edit wanderlist", edit_wanderlist_path(@wanderlist) %></p>

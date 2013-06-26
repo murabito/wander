@@ -1,0 +1,4 @@
+<h1>Wanderlists</h1>
+<% @wanderlists.each { |wanderlist| %>
+  <p><%= link_to wanderlist.name, wanderlist %></p>
+<% } unless @wanderlists.empty? %>

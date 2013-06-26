@@ -1,0 +1,2 @@
+module WanderlistsHelper
+end
